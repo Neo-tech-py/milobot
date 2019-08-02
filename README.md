@@ -35,12 +35,21 @@ bot = commands.Bot(command_prefix="-")
 async def on_ready():
   print('Bot is Ready')
   
- @bot.command()
+@bot.command()
  async def ping(ctx):
    await ctx.send(**Pong!**)
    
  bot.run('TOKEN') # TODO: Insert Bot token
  ```
+_I Wish you would make your own code for you usong this example_
+
+# External Link
+
+* [discord.py documentation](https://discordpy.readthedocs.io/en/latest/)
+* [Patreon](https://patreon.com/PrabaRock7)
+* [License](https://github.com/Neo-tech-py/milobot/blob/master/LICENSE)
+
+*** 
 
 
 
