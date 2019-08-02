@@ -41,7 +41,34 @@ async def on_ready():
    
  bot.run('TOKEN') # TODO: Insert Bot token
  ```
-_I Wish you would make your own code for you usong this example_
+ **Cogs Example**
+ Cogs are used to arrange your commands
+ 
+```py
+#Please see discord.py documentation for more info
+import discord
+from discord.ext import commands
+
+#Cogs Must derive from Cog
+class Example(commands.Cog):
+
+  def __init__(self, client)
+  self.client == client
+  
+  @commands.Cog.listener()
+  async def on_ready(self):
+    print('Done')
+    
+  @commands.command(name="Ping", description="Return Pong", hidden=False)#Set this to true if you want to hide it
+  async def ping(self, ctx):
+    await ctx.send('**Pong!**')
+    
+def setup(client):
+  client.add_cog(Example(client))
+  ```
+**These Are the some Examples You can find more in discord.py documentation**
+
+_I Wish you would make your own code for your bot using this example_
 
 # External Link
 
