@@ -20,7 +20,8 @@ python-3 -m pip install -U discord.py
 #Windows
 py-3 -m pip install -U discord.py[voice]
 #Linux
-python-3 -m pip install -U discord.py[voice]sh```
+python-3 -m pip install -U discord.py[voice]
+```
 
 
 
