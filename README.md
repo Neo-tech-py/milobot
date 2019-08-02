@@ -23,6 +23,28 @@ py-3 -m pip install -U discord.py[voice]
 python-3 -m pip install -U discord.py[voice]
 ```
 
+**A Example Bot Code for Your Own Command**
+
+```py
+import discord
+from discord.ext import commands
+
+bot = commands.Bot(command_prefix="-")
+
+@bot.event
+async def on_ready():
+  print('Bot is Ready')
+  
+ @bot.command()
+ async def ping(ctx):
+   await ctx.send(**Pong!**)
+   
+ bot.run('TOKEN') # TODO: Insert Bot token
+ ```
+
+
+
+
 
 
 
