@@ -52,8 +52,8 @@ from discord.ext import commands
 #Cogs Must derive from Cog
 class Example(commands.Cog):
 
-  def __init__(self, client)
-  self.client == client
+  def __init__(self, bot)
+  self.bot == bot
   
   @commands.Cog.listener()
   async def on_ready(self):
@@ -63,8 +63,8 @@ class Example(commands.Cog):
   async def ping(self, ctx):
     await ctx.send('**Pong!**')
     
-def setup(client):
-  client.add_cog(Example(client))
+def setup(bot):
+  client.add_cog(Example(bot))
   ```
 **These Are the some Examples You can find more in discord.py documentation**
 
