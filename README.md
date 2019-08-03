@@ -11,7 +11,7 @@
 
 # Example code for newbies!!
 **Install Modules first**
-```console
+```sh
 #Windows
 py3 -m pip install -U discord.py
 #Linux
