@@ -7,16 +7,16 @@
 - Example code
 - External links
 
-# What is MiloBot?
+## What is MiloBot?
 An easy to use And fun to use discord bot. Milo is the Simple and funny discord bot which can be used to do moderation, Economy, Fun, Game.
 
-# How to self-host the bot?
+## How to self-host the bot?
 Self Host can be done via heroku. The steps to host and complete guide in wiki
 
-# What about Contribution?
+## What about Contribution?
 Contribution is hearty welcomed. Send your code via [Pull Requests](https://github.com/Neo-tech-py/milobot/pulls), and in E-Mail - imgroot078@gmail.com. If your Code runs perfectly we will merge it give a special role in our discord server.
 
-# Example code for newbies!!
+## Example code for newbies!!
 **Install Modules first**
 ```sh
 #Windows
@@ -77,8 +77,8 @@ def setup(bot):
 
 _I Wish you would make your own code for your bot using this example_
 
-<a name=ExternalLink></a>
-# ExternalLink
+
+## External Link
 
 * [discord.py documentation](https://discordpy.readthedocs.io/en/latest/)
 * [Patreon](https://patreon.com/PrabaRock7)
