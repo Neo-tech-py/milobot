@@ -1,5 +1,8 @@
 ![Logo](https://i.imgur.com/4ims2Lc.png)
 
+# Contents
+<a href="#External Link>External Link</a>
+
 # What is MiloBot?
 An easy to use And fun to use discord bot. Milo is the Simple and funny discord bot which can be used to do moderation, Economy, Fun, Game.
 
@@ -70,6 +73,7 @@ def setup(bot):
 
 _I Wish you would make your own code for your bot using this example_
 
+<a name=External Link></a>
 # External Link
 
 * [discord.py documentation](https://discordpy.readthedocs.io/en/latest/)
