@@ -11,10 +11,16 @@
       "description": "API KEY for Configuration and Better Preference",
       "required": true
     "CLIENT ID": {
-      "description": " CLIENT ID of your bot"
+      "description": " Client ID od your bot",
+      "required": true 
     }
-   }
   }
+}
+    
+
+    
+  
+
 
 
 
