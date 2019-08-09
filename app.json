@@ -8,8 +8,11 @@
       "required": true
     },
     "API KEY": {
-      "description": "API KEY for you provided by us.",
+      "description": "API KEY for Configuration and Better Preference",
       "required": true
+    " CLIENT ID": {
+      "description": " CLIENT ID of your bot",
+      "required": false 
     }
    }
   }
