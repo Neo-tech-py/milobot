@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<title>Milo Bot inc.</title>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)"
+  class="closebtn"
+  onclick="closeNav()">&times;</a>
+
+  <a href="home.html">Home</a>
+  <a href="installation.html">Installation</a>
+  <a href="about.html" >About Neo-tech-py</a>
+  <a href="examples.html" >Example code</a>
+
+</div>
+<span style="font-size:30px;cursor:
+pointer"onclick="openNav()">☰ Installation</span>
+
+<script>
+
+/* Set the width of the side navigation to
+250px */ 
+
+function openNav() {
+ document.getElementById("mySidenav")
+ .style.width="250px";
+}
+
+function closeNav() {
+ document.getElementById("mySidenav")
+ .style.width = "0";
+}
+</script>
+<h1 align="center">Milo Bot</h1>
+</head>
+<body background="https://i.imgur.com/nQWrDm7.png">
+<h2 align="center"><u>Installation</u></h2>
+<p>Hello, Welcome to Installation Setup For this you need:-<br>
+<li>Heroku Account
+<li>Guthub account
+<li>Patience<br>
+<hr>
+</p>
+</body>
+<h4>First Step - Setting Up</h4>
+<p><b>Go to <a href="https://discordapp.com/developers" >Discord Developer Portal</a>and create an application and name it, and go to not section and click add bot, your bot will added. Now copy your client I'd which can get from "GENERAL INFORNATION" section and "TOKEN" from "BOT" section. Now go to "OUTH2" section and there click bot and you will get your bot authorization link there and invite the not to your server.<br>
+</b></p>
+<hr>
+<h4>Second Step - hosting and making the not online(final step)</h4>
+<p><b>Go to <a href="https://github.com/Neo-tech-py/milobot" >milobot repo</a> and fork the repo, so that the repo is now as your own repo. Then goto <a href="https://heroku.com/deploy?template=https://github.com/Neo-tech-py/milobot" >Milo bot deploy template</a>and there fill all "CONFIG VARS". CONFIG VARS refernece wil found <a href="https://github.com/Neo-tech-py/milobot/blob/master/CONFIG_VARS.md" >here</a><br>
+After filling all the VARS you will now move to deploy section and connect your account to the heroku then in search bar type milobot and click milobot and click Enable automatic deploys and click deploy after deplaoying go to RESOURCES section and click the worker on after a minute the not will online type **help for more info</b></p>
+</html>
