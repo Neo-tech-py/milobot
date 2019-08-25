@@ -24,7 +24,7 @@ client = commands.Bot(
            owner_id=589647651939549206,
            case_insensitive=True
 )
-token = open("token.txt", "r").read()
+token = os.getenv(token)
 
 @client.command(name="load", discription="Loads a cog", hidden=True)
 @checks.is_creator()
