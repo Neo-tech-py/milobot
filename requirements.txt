@@ -1,2 +1,2 @@
 discord.py==1.2.3
-pip install -U git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
+git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
