@@ -1,5 +1,6 @@
 discord.py==1.2.3
-git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
+pynacl==1.2.1
+discord.py[voice]
 timeago==1.0.10
 pylint==1.8.4
 youtube-dl==2019.9.1
