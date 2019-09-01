@@ -24,8 +24,6 @@ client = commands.Bot(
            owner_id=589647651939549206,
            case_insensitive=True
 )
-token = os.getenv(TOKEN)
-
 
 @client.command(name="load", discription="Loads a cog", hidden=True)
 @checks.is_creator()
@@ -158,4 +156,4 @@ async def change_pr():
 		await asyncio.sleep(2)
 	
 client.loop.create_task(change_pr())
-client.run(token)
+client.run(os.getenv(token))
