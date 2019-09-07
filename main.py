@@ -208,7 +208,7 @@ async def change_pr():
 		
 		await client.change_presence(activity=discord.Game(status))
 		
-		await asyncio.sleep(1000)
+		await asyncio.sleep(12)
 	
 client.loop.create_task(change_pr())
 client.run(os.getenv("TOKEN"))
