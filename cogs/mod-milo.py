@@ -16,7 +16,6 @@ class Moderation(commands.Cog):
 		await channel.set_permissions(role, send_messages = False)
 		
 	@commands.command()
-	@commands.has_permissions(kick_members=True)
 	@checks.is_mod()
 	async def kick(self, ctx, member : discord.Member = None, reason = None):
 		if member == None:
