@@ -49,7 +49,7 @@ async def on_ready():
 	game = discord.Game("Launchin zzz..")
 	await client.change_presence(status=discord.Status.idle, activity=game)
 	print("Launched sucessfully" + client.user.display_name)
-	game1 = discord.Game("~help | PrettyNeat®")
+	game1 = discord.Game("@mention help | PrettyNeat®")
 	await client.change_presence(status=discord.Status.online, activity=game1)
 		
 @client.event
@@ -61,8 +61,7 @@ async def on_command_error(ctx, error):
 async def on_guild_join(guild):
 	general = find(lambda x: x.name == 'general', guild.text_channels)
 	if general and general.permissions_for(guild.me).send_messages:
-		embed = discord.Embed(title=f"Thanks for Adding me on {guild}", color=discord.Color.greyple(), timestap=datetime.datetime.utcnow())
-		embed.add_field(name="For More Info and want to get list of commands Please type ~help", value=embed.Empty)
+		embed = discord.Embed(title=f"Thanks for Adding me on {guild}", description="To know list of commands, Please type @mention help", color=discord.Color.greyple(), timestap=datetime.datetime.utcnow())
 		embed.add_field(name="Total servers", value=len(client.guilds))
 		await general.send(embed=embed)
 	
