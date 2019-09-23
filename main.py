@@ -157,8 +157,8 @@ async def guildinfo(ctx):
 	em.add_field(name="Emojis:", value=len(ctx.guild.emojis))
 	em.add_field(name="Region", value=ctx.guild.region)
 	em.add_field(name="Verification level", value=ctx.guild.verification_level)
-	em.add_field(name="Text Channels:", value=ctx.guild.text_channels)
-	em.add_field(name="Voice Channs:", value=ctx.guild.voice_channels)
+	em.add_field(name="Text Channels:", value=len(ctx.guild.text_channels))
+	em.add_field(name="Voice Channs:", value=len(ctx.guild.voice_channels))
 	await ctx.send(embed=em)
 	
 @client.command()
