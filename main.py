@@ -191,14 +191,6 @@ async def botinfo(ctx):
 	embed.add_field(name="Used by", value=len(client.users))
 	await ctx.send(embed=embed)
 
-@client.command()
-async def echo(
-ctx, amount: int, *, message):
-	if amount <= 5:
-		for i in range(amount):
-			await ctx.send(message)
-	else:
-		await ctx.send("Please use a number less or equal to 5")
 
 @client.command()
 async def mentionme(ctx):
